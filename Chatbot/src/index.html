@@ -1,13 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Chatbot</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Chat with OpenAI</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+
+    <body>
+
+        <header>
+            <img src="HAMILTON.jpg" alt="Hamilton Logo">
+            <!-- Weitere Header-Inhalte können hier hinzugefügt werden -->
+            <p class="right-text">model: "gpt-3.5-turbo-instruct"</p>
+        </header>
+
+        <h1>Chat with OpenAI</h1>
+        <main>
+            <form> 
+            
+                <textarea required></textarea>
+                <button type="submit">Submit</button>
+                
+            </form>
+
+            <div id="output">Answer from AI:</div>
+        </main>
+        <script src="client.js"></script>
+
+        <footer>
+            <p class="name">Paul Scheuerlein, Spitzenberg 5, 90403 Nürnberg, Paul.Scheuerlein@gmx.de</p>
+        </footer>
+
+
+    </body>
 </html>
