@@ -1,1 +1,114 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: monospace;
+	color: #1B1A55;
+	background-color: #F0F3FF;
+	font-size: 20px;
+	text-align: center;
+	padding-inline: 10px;
+	line-height: 1.5;
+}
+
+main {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+h1 {
+	padding: 20px;
+	font-size: 40px;
+}
+
+textarea {
+	width: 100%;
+	height: 100px;
+	resize: vertical;
+	margin: 0 auto;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	border: 1px solid #555;
+	outline: none;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+}
+
+textarea:focus {
+	border-color: #666;
+}
+
+button {
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background:  #15F5BA;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	padding: 5px 12px;
+	border-radius: 4px;
+	color:  #1B1A55; /* Textfarbe, nach Bedarf anpassen */
+}
+
+button:hover,
+button:focus-visible {
+	background-color: #757575;
+}
+
+#output {
+	margin: 20px 0px;
+	text-align: left;
+}
+
+header {
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 10px; /* Füge Padding nach Bedarf hinzu */
+    background-color: #070F2B; /* Hintergrundfarbe für den Header, nach Bedarf anpassen */
+    color:  rgb(245, 245, 245); /* Textfarbe, nach Bedarf anpassen */
+}
+
+
+/* Stile für den rechten Text im Header */
+header .right-text {
+    margin: 0;
+    font-size: 20px; /* Schriftgröße nach Bedarf anpassen */
+	
+}
+
+img {
+    max-width: 10%; /* Bildbreite auf 100% des Containers beschränken */
+    height: auto; /* Automatische Anpassung der Höhe, um das Bild nicht zu verzerren */
+    display: block; /* Verhindert zusätzlichen Platz unter dem Bild */
+}
+
+/* Setze den Platz um den Footer auf 0 und positioniere ihn unten links */
+footer {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color:   #070F2B; /* Hintergrundfarbe für den Footer, nach Bedarf anpassen */
+    width: 100%; /* 100% Breite des Viewports */
+    text-align: center;
+	color:  rgb(245, 245, 245); /* Textfarbe, nach Bedarf anpassen */
+}
+
+/* Stile für den Namen im Footer */
+.name {
+    margin: 10px; /* Füge etwas Abstand zum Text hinzu, nach Bedarf anpassen */
+	font-size: 16px; /* Schriftgröße nach Bedarf anpassen */
+}
